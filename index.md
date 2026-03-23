@@ -2,7 +2,7 @@
 layout: default
 title: Partum Partner Checklist
 permalink: /
-clinical_intro: "This checklist is designed to provide a clinical backbone with a cozy tone for prenatal and postpartum partner support. Use the linked pages for stage-based actions and adjust as your family’s needs evolve."
+clinical_intro: "Welcome! This site is built to guide birth partners through labor, birth, and postpartum care."
 actions_by_stage:
   - stage: "Early labor"
     description: "Initial readiness before active labor begins."
@@ -19,8 +19,6 @@ actions_by_stage:
 ---
 
 # Prenatal & Postpartum Partner Checklist
-
-Welcome! This site is built to guide birth partners through labor, birth, and postpartum care:
 
 - [Labor](labor/)
 - [Birth](birth/)

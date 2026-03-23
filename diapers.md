@@ -26,7 +26,7 @@ Diaper output for breastfed babies:
       </td>
       <td>
         <ul>
-          <li class="task-list-item"><input type="checkbox" /> 2</li>
+          <li class="task-list-item"><input type="checkbox" /> 1</li>
         </ul>
       </td>
     </tr>

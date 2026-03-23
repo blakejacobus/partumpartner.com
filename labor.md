@@ -1,6 +1,5 @@
 # Labor
-
-### Early
+## Early
 - [ ] Remove rugs or cover flooring around birth pool and bed
 - [ ] Clear off surfaces in bedroom
 - [ ] Remove bedrail
@@ -16,7 +15,7 @@
 - [ ] Thaw casserole and sourdough
 - [ ] Make [laboraide](TODO) or other electrolyte drink
 - [ ] Offer for MOM to use tub (can use Epsom salt)
-
-### Active Labor
+## Active
 - [ ] Call midwives
 - [ ] Fill tub (99-101F)
+See [Birth](./birth.md) for next steps.

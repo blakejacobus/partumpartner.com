@@ -1,4 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
+  var siteNavToggle = document.querySelector(".site-nav-toggle");
+  var siteNav = document.querySelector(".site-nav");
+
+  if (siteNavToggle && siteNav) {
+    siteNavToggle.addEventListener("click", function () {
+      var expanded = siteNavToggle.getAttribute("aria-expanded") === "true";
+      siteNavToggle.setAttribute("aria-expanded", String(!expanded));
+      siteNav.classList.toggle("open");
+    });
+  }
+
   var checkboxes = document.querySelectorAll("li.task-list-item input[type='checkbox']");
   if (!checkboxes.length) {
     return;

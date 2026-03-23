@@ -13,7 +13,9 @@ Checklist for prenatal and postpartum partner support.
 
 ### 🔧 Optional refinements
 
-- Add `assets/js/checklist.js` for localStorage checkbox state
-- Add YAML-controlled sections (e.g., clinical intro + actions by stage)
-- Add README.md user-facing overview remains as repo summary (optional)
-- Add Lighthouse for accessibility style tune
+- `assets/js/checklist.js` now saves checkbox state in `localStorage` and unlocks list toggles.
+- `index.md` has YAML-controlled fields (`clinical_intro`, `actions_by_stage`) for configurable markup.
+- README is intentionally the repo-level summary and can remain as top-level contributor guidance.
+- Add Lighthouse accessibility checks:
+  - run `npm install -g lighthouse` and `lighthouse http://127.0.0.1:4000/ --view`
+  - optionally add GitHub Action for automated audits in `.github/workflows/lighthouse.yml`

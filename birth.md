@@ -1,3 +1,9 @@
+---
+layout: default
+title: Birth
+permalink: /birth/
+---
+
 # Birth
 - [ ] BABY checkout by medical staff
 - [ ] MAMA checkout by medical staff

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Labor
+permalink: /labor/
+---
+
 # Labor
 ## Early
 - [ ] Notify Midwifery

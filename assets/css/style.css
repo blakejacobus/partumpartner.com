@@ -1,0 +1,37 @@
+/* Cozy clinical theme */
+:root {
+  --bg: #f7f8fb;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --muted: #616e7c;
+  --accent: #3b82f6;
+  --accent-soft: #dbeafe;
+  --border: #dbe2ed;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: Inter, "Segoe UI", Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
+.page-body { min-height: 100vh; display: flex; flex-direction: column; }
+.site-header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1rem 1.25rem; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 10; }
+.site-brand { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+.site-nav a { margin-left: 0.75rem; color: var(--text); text-decoration: none; font-weight: 500; }
+.site-nav a:hover { color: var(--accent); }
+.content { flex: 1; padding: 1.25rem; max-width: 900px; margin: 0 auto; }
+.site-footer { padding: 1rem 1.25rem; background: var(--surface); border-top: 1px solid var(--border); text-align: center; color: var(--muted); }
+
+h1, h2 { color: #0f172a; }
+h1 { margin-top: 0; font-size: 2rem; }
+h2 { margin: 1.25rem 0 0.5rem; }
+
+ul { padding-left: 1.25rem; }
+ul li { margin: 0.45rem 0; }
+input[type="checkbox"] { accent-color: var(--accent); }
+
+a { color: var(--accent); }
+a:hover { color: #1d4ed8; }
+
+.markdown-body { font-size: 1rem; line-height: 1.6; }
+@media (max-width: 768px) {
+  .site-header { flex-wrap: wrap; }
+  .site-nav a { margin: 0.4rem 0.5rem; }
+}

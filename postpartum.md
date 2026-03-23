@@ -1,3 +1,9 @@
+---
+layout: default
+title: Postpartum
+permalink: /postpartum/
+---
+
 # Postpartum
 > Anticipate needs; support MOM to support BABY. <br>
 > BABY duties are opportunities to create a bond with BABY. <br>

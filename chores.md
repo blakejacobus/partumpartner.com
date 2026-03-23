@@ -1,3 +1,9 @@
+---
+layout: default
+title: Chores
+permalink: /chores/
+---
+
 # Chores
 List out daily, weekly, and monthly chores that DAD can completed when able, or that guests can assist with when visiting.
 ## Anytime

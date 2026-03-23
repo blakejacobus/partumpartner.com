@@ -1,3 +1,9 @@
+---
+layout: default
+title: Diapers
+permalink: /diapers/
+---
+
 # Diapers
 Diaper output fo breastfed babies:
 | Time | Wet | Dirty |
